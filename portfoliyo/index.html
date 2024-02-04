@@ -1,0 +1,225 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+    <title>portfoliyo page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+    <div id="header">
+        
+         <div class="container">
+            <nav>
+                <img src="images/IMG-20231212-WA0001.jpg" width="150px" height="200px">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+
+                </ul>
+                <i class="fa-sharp fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+
+            <div class="header-text">
+                <p>Cyber Security</p>
+                <h2>Hi,I'm <span>Thakshala</span> <br>From Sri Lanka</h2>
+
+            </div>
+         </div>
+
+
+
+
+
+
+    </div> 
+
+ <!-----about-->
+    <div id="about">
+        <div class="container">
+                 <div class="row">
+                    <div class="about-col-1">
+                        <img src="images/DSC_6801 copy.jpg">
+                    </div>
+                    <div class="about-col-2">
+                        <h3 class="sub-title">About Me</h3>
+                        <p>A dedicated educator committed to creating engaging learning experiences and fostering a supportive classroom environment.Following a challenging career in an organization where I can contribute to the growth of the organization with my skills and competencies.</p>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Technical Skills:</span><br>Networking: Understanding how networks operate is crucial. Learn about TCP/IP, routing, subnetting, and network protocols.<br>Operating Systems: Familiarize yourself with various operating systems, especially Linux and Windows, and their security mechanisms.
+                                </li>
+                                <li><span>Security Knowledge:</span><br>Security Principles: Understand encryption, authentication methods, access control, firewalls, and intrusion detection systems.<br>Threat Landscape: Stay updated on the latest cybersecurity threats, vulnerabilities, and attack techniques.</li>
+                                <li><span>Soft Skills:</span><br>Communication: Effectively communicate technical information to various audiences, including non-technical stakeholders.<br>Teamwork: Collaborate with others, as cybersecurity often involves working in teams to address complex issues.</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>Internship</span><br>Have one year internship in IT company as a cybersecurity person.</li>
+                                <li><span>Cybersecurity Competitions:</span><br>Have participated Hackthon Competitions in University of Kelaniya.</li>
+                                <li><span>Research Assistantships</span><br>Work with professors or researchers on cybersecurity projects within my university.</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>B.Sc(hon's)computer science</span><br>I am a undergraduate in B.Sc(Hon's) computer science in University of Kelaniya.</li>
+                                <li><span>Speak in English</span><br>I have followed in 1 year English Course at Britishway English acadamy.</li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+                   
+                 </div>
+
+        </div>
+</div>
+
+<!----services-->
+<div id="services">
+    <div class="container">
+        <h2 class="sub-title">My Services</h2>
+        <div class="services-list">
+            <div>
+                <h3>Data Protection and Encryption</h3>
+                <p>Securing sensitive information through encryption methods and data loss prevention strategies.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <h3> Security Audits and Compliance</h3>
+                <p>Reviewing systems and processes to ensure they meet industry standards and regulations.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store-ios"></i>
+                <h3> Security Software Development</h3>
+                <p>Creating and implementing custom security solutions or tools tailored to specific needs.</p>
+                <a href="#">Learn more</a>
+            </div>
+
+        </div>
+    </div>
+</div>
+<!--------portfolio----->
+<div id="portfolio">
+    <div class="container">
+        <h2 class="sub-title">My Work</h2>
+        <div class="work-list">
+            <div class="work">
+             <img src="images/1_XVuhpAWoyl3xLSutlNz9aQ.webp">
+             <div class="layer">
+                <h3>Protection</h3>
+                <p>Implementing security measures like firewalls, encryption, antivirus software, and secure authentication methods (like multi-factor authentication) to prevent unauthorized access and data breaches.</p>
+                <a href="#">Details</a>
+             </div>
+            </div>
+            <div class="work">
+                <img src="images/istockphoto-1457991385-612x612.jpg">
+                <div class="layer">
+                    <h3>Education and Training</h3>
+                    <p>Continuous training and education for employees to understand security best practices, identify potential threats (like phishing emails), and follow secure protocols.</p>
+                    <a href="#">Details</a>
+                 </div>
+               </div>
+               <div class="work">
+                <img src="images/istockphoto-1552848391-2048x2048.jpg">
+                <div class="layer">
+                    <h3>Regulations and Compliance</h3>
+                    <p>Adhering to industry regulations and compliance standards to ensure that systems and processes meet the required security standards.</p>
+                    <a href="#">Details</a>
+                 </div>
+               </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!-----contact------>
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-regular fa-paper-plane"></i>thakshalamaduwanthi17@gmail.com</p>
+                <p><i class="fa fa-phone"></i>0715609801</p>
+                <div class="social-icons">
+                    <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-viber"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="images/DOC-20231215-WA0002_"download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" raws="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Thank You<i class="fa-solid fa-heart"></i>Join with us</p>
+    </div>
+</div>
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+<script>
+var sidemenu = document.getElementById("sidemenu");
+
+function openmenu(){
+    sidemenu.style.right = "0";
+}
+function closemenu(){
+    sidemenu.style.right = "-200px";
+}
+
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycby0e_UrLVrvYfCbZypbOqxbIgrYIzCn6HD-SSSjsJt2y3oEkneRygBhUT0VglZNGBDn/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000
+            )
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
